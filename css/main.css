@@ -4,7 +4,7 @@
 }
 
 #wrapper{
-
+  height: 100vh;
 }
 
 
@@ -22,7 +22,7 @@ h1{
 .line{
   display: inline-block;
   border-bottom: 2px solid #a66eb8;
-  width: 40vw;
+  width: 37vw;
 }
 .lline{
   margin-right: 0%;
