@@ -2,37 +2,60 @@
   font-family: megrim;
   src: url(font/megrim.ttf);
 }
-.leftline {
-  display: inline-block;
-  border-top: 3px solid #000;
-  width: 5%;
-  padding-bottom: 2%;
+
+#wrapper{
+
 }
 
-#header img{
-  margin-top: 1%;
-  display: inline-block;
-  width: 6%;
-  padding-right: 1%;
-}
-.rightline{
-  display: inline-block;
-  border-top: 3px solid #000;
-  width: 76%;
-  padding-bottom: 2%;
-}
 
+
+#title{
+  width: 100%;
+  margin: auto;
+  margin-top: -29.085px;
+}
 h1{
   display: inline-block;
   font-family: megrim;
-  font-size: 180%;
-  padding-bottom: 24%;
+  font-size: 3vw;
+}
+.line{
+  display: inline-block;
+  border-bottom: 2px solid #a66eb8;
+  width: 40vw;
+}
+.lline{
+  margin-right: 0%;
+}
+.rline{
+  margin-left: 0%;
+}
+li{
+  display: inline;
+  font-family: megrim;
+  font-size: 1.3vw;
+}
+.lli{
+  margin-left: 5vw;
+}
+.rli{
+  margin-left: 10vw;
 }
 
-.centered {
+a{
+  text-decoration: none;
+  color: black;
+}
+
+img{
+  width:100%;
+}
+
+#homephoto {
+  width: 20vw;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -177.6px;
-  margin-left: -204px;
+  margin-left: -10vw;
+  margin-top: -10vw;
 }
