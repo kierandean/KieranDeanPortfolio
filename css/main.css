@@ -1,4 +1,38 @@
-#topbar{
-    height: 100px;
-    background-color: blue
+@font-face{
+  font-family: megrim;
+  src: url(font/megrim.ttf);
+}
+.leftline {
+  display: inline-block;
+  border-top: 3px solid #000;
+  width: 5%;
+  padding-bottom: 2%;
+}
+
+#header img{
+  margin-top: 1%;
+  display: inline-block;
+  width: 6%;
+  padding-right: 1%;
+}
+.rightline{
+  display: inline-block;
+  border-top: 3px solid #000;
+  width: 76%;
+  padding-bottom: 2%;
+}
+
+h1{
+  display: inline-block;
+  font-family: megrim;
+  font-size: 180%;
+  padding-bottom: 24%;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -177.6px;
+  margin-left: -204px;
 }
