@@ -14,6 +14,9 @@
   display: inline-block;
   width: 18vw;
 }
+#navbar{
+  background: white;
+}
 nav{
   width: 40vw;
 }
@@ -24,7 +27,7 @@ h1{
   margin-top: 1.5vw;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 a{
   font-family: megrim;
@@ -41,4 +44,23 @@ ul > li:nth-child(2){
 li{
 display: inline-block;
 font-size: 1.5vw;
+}
+
+#background{
+  background-image: linear-gradient(45deg, #f2e0ff 25%, #fdedff 25%, #fdedff 50%, #f2e0ff 50%, #f2e0ff 75%, #fdedff 75%, #fdedff 100%);
+  margin-top: 4.5vh; 
+  height: 93vh;
+background-size: 56.57px 56.57px;
+}
+
+img{
+  width:100%;
+}
+#position {
+  width: 20vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10vw;
+  margin-top: -10vw;
 }
