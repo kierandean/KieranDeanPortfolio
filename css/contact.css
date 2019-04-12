@@ -2,43 +2,60 @@
     font-family: megrim;
     src: url(font/megrim.ttf);
   }
-#leftnav{
+  #leftnav{
     float: left;
-    border-bottom: 1px solid purple;
-}
-#rightnav{
+  }
+  #rightnav{
     float: right;
-    border-bottom: 1px solid purple;
-}
-#heading{
+  }
+  #heading{
     display: inline-block;
     width: 18vw;
-}
-nav{
+  }
+  #navbar{
+    background: white;
+  }
+  nav{
     width: 40vw;
-}
-h1{
+  }
+  h1{
     font-size: 3vw;
     margin: 0;
     position: absolute;
-    margin-top: 1.5vw;
+    margin-top: 1vw;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-a{
+    transform: translate(-50%, -50%);
+  }
+  a{
     font-family: megrim;
     text-decoration: none;
     color: black;
-}
-ul > li:first-child{
+  }
+  ul > li:first-child{
     margin-left: 15%;
-}
-ul > li:nth-child(2){
+  }
+  ul > li:nth-child(2){
     float: right;
     margin-right: 18%;
-}
-li{
+  }
+  li{
   display: inline-block;
   font-size: 1.5vw;
-}
+  }
+  body{
+    background-color:rgba(198, 100, 255, 0.15);
+  }
+  #background{
+    background: repeating-linear-gradient(
+    45deg,
+    rgba(180, 117, 165, 0.383),
+    rgba(180, 117, 165, 0.383) 5px,
+    rgba(84, 55, 77, 0) 5px,
+    rgba(84, 55, 77, 0) 20px);
+    margin-top: 4.5vh; 
+    height: 92vh;
+    z-index: -1;
+  background-size: 56.57px 56.57px;
+  }
+  

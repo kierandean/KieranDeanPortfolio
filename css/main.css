@@ -4,11 +4,9 @@
 }
 #leftnav{
   float: left;
-  border-bottom: 1px solid purple;
 }
 #rightnav{
   float: right;
-  border-bottom: 1px solid purple;
 }
 #heading{
   display: inline-block;
@@ -24,7 +22,7 @@ h1{
   font-size: 3vw;
   margin: 0;
   position: absolute;
-  margin-top: 1.5vw;
+  margin-top: 1vw;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -45,11 +43,19 @@ li{
 display: inline-block;
 font-size: 1.5vw;
 }
-
+body{
+  background-color:rgba(198, 100, 255, 0.15);
+}
 #background{
-  background-image: linear-gradient(45deg, #f2e0ff 25%, #fdedff 25%, #fdedff 50%, #f2e0ff 50%, #f2e0ff 75%, #fdedff 75%, #fdedff 100%);
+  background: repeating-linear-gradient(
+  45deg,
+  rgba(180, 117, 165, 0.383),
+  rgba(180, 117, 165, 0.383) 5px,
+  rgba(84, 55, 77, 0) 5px,
+  rgba(84, 55, 77, 0) 20px);
   margin-top: 4.5vh; 
-  height: 93vh;
+  height: 92vh;
+  z-index: -1;
 background-size: 56.57px 56.57px;
 }
 

@@ -4,15 +4,16 @@
 }
 #leftnav{
   float: left;
-  border-bottom: 1px solid purple;
 }
 #rightnav{
   float: right;
-  border-bottom: 1px solid purple;
 }
 #heading{
   display: inline-block;
   width: 18vw;
+}
+#navbar{
+  background: white;
 }
 nav{
   width: 40vw;
@@ -21,10 +22,10 @@ h1{
   font-size: 3vw;
   margin: 0;
   position: absolute;
-  margin-top: 1.5vw;
+  margin-top: 1vw;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 a{
   font-family: megrim;
@@ -41,4 +42,19 @@ ul > li:nth-child(2){
 li{
 display: inline-block;
 font-size: 1.5vw;
+}
+body{
+  background-color:rgba(119, 110, 110, 0.15);
+}
+#background{
+  background: repeating-linear-gradient(
+  45deg,
+  rgba(180, 117, 165, 0.383),
+  rgba(180, 117, 165, 0.383) 5px,
+  rgba(84, 55, 77, 0) 5px,
+  rgba(84, 55, 77, 0) 20px);
+  margin-top: 4.5vh; 
+  height: 92vh;
+  z-index: -1;
+background-size: 56.57px 56.57px;
 }
