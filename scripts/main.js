@@ -1,14 +1,15 @@
-function myMove() {
-    var elem = document.getElementById("animate"); 
-    var pos = 0;
-    var id = setInterval(frame, 5);
-    function frame() {
-      if (pos == 350) {
-        clearInterval(id);
-      } else {
-        pos++; 
-        elem.style.top = pos + 'px'; 
-        elem.style.left = pos + 'px'; 
-      }
-    }
+var modal = document.getElementById("mymodal");
+var btn =document.getElementById("mybtn");
+var span = document.getElementsByClassName("close");
+
+btn.onclick = function(){
+  modal.style.display = "block";
+}
+span.onclick = function(){
+  modal.style.display = "none";
+}
+window.onclick = function(event){
+  if(event.target == modal){
+    modal.style.display="none";
   }
+}

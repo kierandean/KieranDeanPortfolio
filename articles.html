@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/articles.css">
-    <script src=scripts/main.js> </script> <title>Kier's bit of internet</title>
+    <script src=scripts/main.js> </script>
+    <title>Kier's bit of internet</title>
 </head>
 <body>
     
 <div id="wrapper">
-
+<div id="header">
     <nav id="leftnav">
         <ul>
             <li><a href="photography.html">Photography</a></li>
@@ -27,6 +28,8 @@
             <li><a href="contact.html">Contact Me</a></li>
         </ul>
     </nav>
+</div>
+    
     <div id="background">
         <article id="leftsnippet">
             <h2>Another interesting article</h2>
@@ -34,29 +37,96 @@
                 LoremLoremLorem
                 LoremLoremLorem Lorem Lorem Lorem Lorem LoremLorem LoremLoremLoremLorem LoremLoremLoremLoremLorem
                 LoremLoremLorem
-            </p>
-            <img src="img/prison.jpg" alt="Men of Milk">
+                </p>
+                <img src="img/prison.jpg" alt="Men of Milk">
             </article>
             <div id="middle">
                 <p>Take a look around. Each article aims to answer a question or shed light on topics out of the mainstream flow of
                     information.</p>
                 <p>Keep your eyes on the space below, full length articles can be found here.</p>
+                <button id="milkBtn">Milk ol milk the white creamy brew of the cows</button>
             </div>
             <article id="rightsnippet">
                 <h2>Why do we drink milk?</h2>
                 <p>For a very long time, milk was a small part of the lives of a very small number of people. It was used as a
-                    substitute during cold winters where crops couldn't grow. Around the first world war, the US government sent
+                    substitute during cold winters where crops couldn't grow.</p>
+                <p> Around the first world war, the US government sent
                     vast amounts of canned and powdered milk overseas to fight malnutrition. In response, many farmers in the US got
                     rid of all livestock and crops apart from cows. As a result, when the US had a huge surplus of milk with no
-                    demand, by this point farmers and processing plants had invested far too much money into the soon to be milk
-                    industry.
-                    So, instead of shutting down, they invested in advertising and milk education programs in schools. Soon adverts
-                    were plastered all over the US claiming that children should drink 4 glasses of milk a day. Shortly after this,
-                    milk was introduced into every school meal.
-            
-                </p>
+                    demand. By this point farmers and processing plants had invested far too much money into the soon-to-be milk
+                    industry to stop producing milk.</p>
                 <img src="img/milkmen.jpg" alt="Men of Milk">
             </article>
-            </div>
 
+            
+    </div>
+
+    <div id="milkmodal" class="modal">
+        <div class="milk-content">
+            <span class="close">X</span>
+            <article>
+                
+                    <h3>Why is milk such a massive part of culture?</h3>
+                <div id="lcolumn">
+                    <p>For a very long time, milk was a small part of the lives of a very small number of people. It was
+                        used as a substitute during cold winters where crops couldn't grow. Around the first world war, the
+                        US government sent vast amounts of canned and powdered milk overseas to fight malnutrition. In
+                        response, many farmers in the US got rid of all livestock and crops apart from cows. As a result,
+                        when the US had a huge surplus of milk with no demand, by this point farmers and processing plants
+                        had invested far too much money into the soon to be milk industry.
+                        So, instead of shutting down, they invested in advertising and milk education programs in schools.
+                        Soon adverts were plastered all over the US claiming that children should drink 4 glasses of milk a
+                        day. Shortly after this, milk was introduced with every school meal.</p>
+                    <p>Despite the massive increase in milk consumption due to these campaigns, huge milk supplies still
+                        remained in the US. They sent the milk to schools, military and overseas as food aid. By the 1980s
+                        the government was spending $2 billion on surplus milk until the Reagan program, in a quest to stop
+                        government spending, stopped it. This didn't sit well with dairy farmers who convinced Congress to
+                        change the rules and created something called the 'Dairy Checkoff' in which farmers would have to
+                        pay into. The Checkoff, in turn, would then fund advertising campaigns for dairy products which were
+                        approved by the US Department of Agriculture (USDA). The 'Got Milk' ads are one example. </p>
+                </div>
+                <div id="rcolumn">
+                    <p> More importantly, this money would pay for partnerships with brands like Starbucks, Dominos,
+                        McDonald's, Taco Bell and others. These partnerships would ensure that companies would create
+                        dairy-heavy products, like Domino's pizza for example, with 40% more cheese. This means one slice
+                        has TWO-THIRDS of the recommended saturated fat.
+                        Studies have concluded that the nutritional factors of milk are minuscule compared to nutrition in
+                        fruit and vegetables.</p>
+                    <p>The USDA is in charge of one of the biggest ad campaigns in the world, aimed at getting people
+                        drinking milk. So, if it is known that milk doesn't provide any exceptional vitamins when compared
+                        to vegetables, why not change the recommendation? Why not change the guidelines to promote drinking
+                        water with every meal?
+                        It's the oldest reason in modern civilisation - money. The dairy industry gives millions to
+                        politicians to protect their interests.
+                        So, next time you grab a cold glass of that chalky brew, think, why do we drink milk?</p>
+                </div>
+                <footer>
+                01/04/2019
+                </footer>
+            </article>
+        </div>
+    </div>
+
+<script>
+var modal = document.getElementById('milkmodal');
+var btn = document.getElementById("milkBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+    
+                
 </div>

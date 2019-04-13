@@ -32,10 +32,10 @@ a{
   text-decoration: none;
   color: black;
 }
-ul > li:first-child{
+#header #header ul > li:first-child{
   margin-left: 15%;
 }
-ul > li:nth-child(2){
+#header ul > li:nth-child(2){
   float: right;
   margin-right: 18%;
 }
