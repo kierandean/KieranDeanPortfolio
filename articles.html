@@ -12,51 +12,62 @@
 <body>
     
 <div id="wrapper">
-<div id="header">
-    <nav id="leftnav">
-        <ul>
-            <li><a href="photography.html">Photography</a></li>
-            <li><a href="lending.html">Lending</a></li>
-        </ul>
-    </nav>
-    <div id="heading"><a href="index.html">
-            <h1>Kieran Dean</h1>
-        </a></div>
-    <nav id="rightnav">
-        <ul>
-            <li><a href="articles.html">Articles</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-    </nav>
-</div>
+    <div id="header">
+        <nav id="leftnav">
+            <ul>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="lending.html">Lending</a></li>
+            </ul>
+        </nav>
+        <div id="heading"><a href="index.html">
+                <h1>Kieran Dean</h1>
+            </a></div>
+        <nav id="rightnav">
+            <ul>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     
     <div id="background">
         <article id="leftsnippet">
-            <h2>Another interesting article</h2>
-            <p>LoremLoremLorem Lorem Lorem Lorem Lorem LoremLorem LoremLoremLoremLorem LoremLoremLoremLoremLorem
-                LoremLoremLorem
-                LoremLoremLorem Lorem Lorem Lorem Lorem LoremLorem LoremLoremLoremLorem LoremLoremLoremLoremLorem
-                LoremLoremLorem
-                </p>
-                <img src="img/prison.jpg" alt="Men of Milk">
-            </article>
-            <div id="middle">
-                <p>Take a look around. Each article aims to answer a question or shed light on topics out of the mainstream flow of
-                    information.</p>
-                <p>Keep your eyes on the space below, full length articles can be found here.</p>
-                <button id="milkBtn">Milk ol milk the white creamy brew of the cows</button>
-            </div>
-            <article id="rightsnippet">
-                <h2>Why do we drink milk?</h2>
-                <p>For a very long time, milk was a small part of the lives of a very small number of people. It was used as a
+            <h2>Prison</h2>
+            <h3>Farms</h3>
+            <p>For a very long time, milk was a small part of the lives of a very small number of people. It was used as a
                     substitute during cold winters where crops couldn't grow.</p>
                 <p> Around the first world war, the US government sent
                     vast amounts of canned and powdered milk overseas to fight malnutrition. In response, many farmers in the US got
                     rid of all livestock and crops apart from cows. As a result, when the US had a huge surplus of milk with no
                     demand. By this point farmers and processing plants had invested far too much money into the soon-to-be milk
                     industry to stop producing milk.</p>
-                <img src="img/milkmen.jpg" alt="Men of Milk">
-            </article>
+                <div class="snippetimg">
+                    <img src="img/prison.jpg" alt="Prison Farms">
+                </div>
+        </article>
+        <div id="middle">
+            <h2>Full</h2> 
+                <h3>Articles</h3>
+            <p>Keep your eyes on the space below, full length articles can be found here.</p>
+            <span id="listcontainer">
+                <button id="milkBtn">Why do we drink milk?</button>
+                <button id="prisonBtn">Prison Farms</button>
+            </span>
+        </div>
+        <article id="rightsnippet">
+            <h2>Why do we</h2>
+            <h3>drink milk?</h3>
+            <p>For a very long time, milk was a small part of the lives of a very small number of people. It was used as a
+                substitute during cold winters where crops couldn't grow.</p>
+            <p> Around the first world war, the US government sent
+                vast amounts of canned and powdered milk overseas to fight malnutrition. In response, many farmers in the US got
+                rid of all livestock and crops apart from cows. As a result, when the US had a huge surplus of milk with no
+                demand. By this point farmers and processing plants had invested far too much money into the soon-to-be milk
+                industry to stop producing milk.</p>
+            <div class="snippetimg">
+                <img src="img/milkmen.jpg" alt="Cows of Milk">
+            </div>
+        </article>
 
             
     </div>
@@ -64,10 +75,10 @@
     <div id="milkmodal" class="modal">
         <div class="milk-content">
             <span class="close">X</span>
-            <article>
-                
-                    <h3>Why is milk such a massive part of culture?</h3>
-                <div id="lcolumn">
+            <article class="modalarticle">
+    
+                <h4>Why is milk such a massive part of culture?</h4>
+                <div class="lcolumn">
                     <p>For a very long time, milk was a small part of the lives of a very small number of people. It was
                         used as a substitute during cold winters where crops couldn't grow. Around the first world war, the
                         US government sent vast amounts of canned and powdered milk overseas to fight malnutrition. In
@@ -85,7 +96,7 @@
                         pay into. The Checkoff, in turn, would then fund advertising campaigns for dairy products which were
                         approved by the US Department of Agriculture (USDA). The 'Got Milk' ads are one example. </p>
                 </div>
-                <div id="rcolumn">
+                <div class="rcolumn">
                     <p> More importantly, this money would pay for partnerships with brands like Starbucks, Dominos,
                         McDonald's, Taco Bell and others. These partnerships would ensure that companies would create
                         dairy-heavy products, like Domino's pizza for example, with 40% more cheese. This means one slice
@@ -97,15 +108,58 @@
                         to vegetables, why not change the recommendation? Why not change the guidelines to promote drinking
                         water with every meal?
                         It's the oldest reason in modern civilisation - money. The dairy industry gives millions to
-                        politicians to protect their interests.
-                        So, next time you grab a cold glass of that chalky brew, think, why do we drink milk?</p>
+                        politicians to protect their interests.</p>
+
+                    <p>01/04/2019</p>
                 </div>
-                <footer>
-                01/04/2019
-                </footer>
             </article>
         </div>
     </div>
+
+    <div id="prisonmodal" class="modal">
+            <div class="prison-content">
+                <span class="pclose">X</span>
+                <article class="modalarticle">
+                    <h4>The truth behind prison labour</h4>
+                    <div class="lcolumn">
+                        <p>4 a very long time, milk was a small part of the lives of a very small number of people. It was
+                            used as a substitute during cold winters where crops couldn't grow. Around the first world war, the
+                            US government sent vast amounts of canned and powdered milk overseas to fight malnutrition. In
+                            response, many farmers in the US got rid of all livestock and crops apart from cows. As a result,
+                            when the US had a huge surplus of milk with no demand, by this point farmers and processing plants
+                            had invested far too much money into the soon to be milk industry.
+                            So, instead of shutting down, they invested in advertising and milk education programs in schools.
+                            Soon adverts were plastered all over the US claiming that children should drink 4 glasses of milk a
+                            day. Shortly after this, milk was introduced with every school meal.</p>
+                        <p>Despite the massive increase in milk consumption due to these campaigns, huge milk supplies still
+                            remained in the US. They sent the milk to schools, military and overseas as food aid. By the 1980s
+                            the government was spending $2 billion on surplus milk until the Reagan program, in a quest to stop
+                            government spending, stopped it. This didn't sit well with dairy farmers who convinced Congress to
+                            change the rules and created something called the 'Dairy Checkoff' in which farmers would have to
+                            pay into. The Checkoff, in turn, would then fund advertising campaigns for dairy products which were
+                            approved by the US Department of Agriculture (USDA). The 'Got Milk' ads are one example. </p>
+                    </div>
+                    <div class="rcolumn">
+                        <p> More importantly, this money would pay for partnerships with brands like Starbucks, Dominos,
+                            McDonald's, Taco Bell and others. These partnerships would ensure that companies would create
+                            dairy-heavy products, like Domino's pizza for example, with 40% more cheese. This means one slice
+                            has TWO-THIRDS of the recommended saturated fat.
+                            Studies have concluded that the nutritional factors of milk are minuscule compared to nutrition in
+                            fruit and vegetables.</p>
+                        <p>The USDA is in charge of one of the biggest ad campaigns in the world, aimed at getting people
+                            drinking milk. So, if it is known that milk doesn't provide any exceptional vitamins when compared
+                            to vegetables, why not change the recommendation? Why not change the guidelines to promote drinking
+                            water with every meal?
+                            It's the oldest reason in modern civilisation - money. The dairy industry gives millions to
+                            politicians to protect their interests.</p>
+                        <p>01/04/2019</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+
+
 
 <script>
 var modal = document.getElementById('milkmodal');
@@ -113,13 +167,32 @@ var btn = document.getElementById("milkBtn");
 var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
   modal.style.display = "block";
-}
+  btn.style.color = "rgb(128, 0, 128)"
+} 
 span.onclick = function() {
   modal.style.display = "none";
 }
 window.onclick = function(event) {
-  if (event.target == modal) {
+  if (event.target != modal) {
     modal.style.display = "none";
+  }
+}
+</script>
+
+<script>
+var pmodal = document.getElementById("prisonmodal");
+var pbtn = document.getElementById("prisonBtn");
+var pspan = document.getElementsByClassName("pclose")[0];
+pbtn.onclick = function() {
+  pmodal.style.display = "block";
+  pbtn.style.color = "rgb(128, 0, 128)"
+} 
+pspan.onclick = function() {
+  pmodal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == pmodal) {
+    pmodal.style.display = "none";
   }
 }
 </script>

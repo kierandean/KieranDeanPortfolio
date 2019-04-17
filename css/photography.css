@@ -32,7 +32,7 @@ a{
   text-decoration: none;
   color: black;
 }
-#header #header ul > li:first-child{
+#header ul > li:first-child{
   margin-left: 15%;
 }
 #header ul > li:nth-child(2){
@@ -56,5 +56,5 @@ body{
   margin-top: 4.5vh; 
   height: 92vh;
   z-index: -1;
-background-size: 56.57px 56.57px;
+  background-size: 56.57px 56.57px;
 }
