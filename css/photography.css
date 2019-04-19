@@ -47,12 +47,7 @@ body{
   background-color:rgba(119, 110, 110, 0.15);
 }
 #background{
-  background: repeating-linear-gradient(
-  45deg,
-  rgba(180, 117, 165, 0.383),
-  rgba(180, 117, 165, 0.383) 5px,
-  rgba(84, 55, 77, 0) 5px,
-  rgba(84, 55, 77, 0) 20px);
+  background-image: 
   margin-top: 4.5vh; 
   height: 92vh;
   z-index: -1;

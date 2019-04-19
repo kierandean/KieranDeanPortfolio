@@ -45,39 +45,32 @@ font-size: 1.5vw;
 }
 
 body{
-  background-color:rgba(180, 153, 173, 0.335);
-}
-#background{
-  background: repeating-linear-gradient(
-  45deg,
-  rgba(85, 70, 90, 0.404),
-  rgba(85, 70, 90, 0.404) 5px,
-  rgba(55, 70, 84, 0) 5px,
-  rgba(84, 55, 77, 0) 20px);
-  margin-top: 4.5vh; 
-  height: 92vh;
-  z-index: -1;
-background-size: 56.57px 56.57px;
+  background-image: url(img/articleback.jpg);
+  background-color: lightgray;
+  position: relative;
+  background-position: 10px 100px; 
+  background-size: 30%;
+  background-repeat: space;
 }
 /*NAV BAR + BACKGROUND*/
 #leftsnippet{
   float: left;
   margin-top: 10vh;
   margin-left: 10vw;
-  height: 60vh;
-  background: rgba(205, 194, 202, 0.589);
+  height: 67%;
+  background: rgba(205, 194, 202, 0.966);
 }
-
 #middle {
   float: left;
   margin-top: 15vh;
   margin-left: 10vw;
   width: 20vw;
   height: 40vh;
-  background: rgba(205, 194, 202, 0.589);
+  background: rgba(205, 194, 202, 0.938);
+  border-left: 3px solid rgb(223, 48, 48);
+  box-shadow: 10px 10px 8px #888888;
 }
 #articlelist li{
-  list-style-type: circle;
   font-size: 120%;
   margin-bottom: 5%;
   font-family: monospace;
@@ -91,8 +84,9 @@ background-size: 56.57px 56.57px;
   float: right;
   margin-top: 10vh;
   margin-right: 10vw;
-  height: 60vh;
-  background: rgba(205, 194, 202, 0.589);
+  height: 65%;
+  background: rgba(205, 194, 202, 0.938);
+  
 }
 article{
   height: 40%;
@@ -100,7 +94,6 @@ article{
 p{
   font-family: monospace;
   width: 20vw;
-  background: rgba(180, 153, 173, 0.335);
   font-size: 120%;
   text-align: center;  
 }
@@ -117,7 +110,8 @@ img{
 h2{
   font-family: megrim;
   font-size: 1.5em;
-  margin: 0;
+  margin: 2% 0 0 0;
+  padding-left: 3%;
 }
 h5{
   font-family: megrim;
