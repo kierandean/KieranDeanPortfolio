@@ -51,34 +51,45 @@ body{
   background-repeat: no-repeat;
 }
 /*NAV BAR + BACKGROUND*/
-
+ 
 #rightsnippet,
 #leftsnippet{
   width: 20%;
   height: 595px;
   float: right;
-  margin: 7% 4% 0% 0%;
-  background-color: rgba(25, 29, 34, 0.842);
+  padding-bottom: 1%;
+  margin: 5% 4% 0% 0%;
+  border: 2px solid rgba(25, 29, 34, 0.842);
   box-shadow: 10px 10px 8px #888888;
   border-radius: 5px;
 }
 #leftsnippet{
-  height: 615px;
+  height: 620px;
 }
-#middle {
+#middle{
   float: right;
   width: 15%;
-  margin: 12% 4% 0% 0%;
+  margin: 10% 4% 0% 0%;
   padding-bottom: 3%;
   background: rgba(25, 29, 34, 0.842);
   box-shadow: 10px 10px 8px #888888;
   border-radius: 5px;
 }
-#leftsnippet p,
-#rightsnippet p,
+#middle h2,
+#middle h3{
+  color: whitesmoke;
+}
 #middle p{
-  color: lightgray;
-  width: 90%
+  color: whitesmoke;
+  width: 90%;
+  margin-left: 3%;
+}
+#leftsnippet p,
+#rightsnippet p{
+  color: rgba(25, 29, 34, 0.842);
+  width: 90%;
+  text-align: left;
+  margin-left: 3%;
 }
 #articlelist li{
   font-size: 120%;
@@ -109,7 +120,7 @@ img{
   max-width: 100%;
 }
 h2{
-  color: lightgray;
+  color: rgba(25, 29, 34, 0.842);
   font-family: megrim;
   font-size: 1.5em;
   margin: 2% 0 0 0;
@@ -121,14 +132,13 @@ h5{
   margin: 5% 0% 2.5% 3%;
 }
 h3{
-  color: lightgray;
+  color: rgba(25, 29, 34, 0.842);
   font-family: megrim;
   text-align: center;
   font-size: 2em;
   margin: 0;
   
 }
-
 button{
   background-color: inherit;
   font-family: monospace;
