@@ -31,7 +31,6 @@ a{
   font-family: megrim;
   text-decoration: none;
   color: white;
-
 }
 #header ul > li:first-child{
   margin-left: 15%;
@@ -53,11 +52,29 @@ body{
 
 /* FORM */
 fieldset{
-  width: 30%;
+  width: 50%;
   top: 30%;
-  left: 50%;
+  left: 40%;
   position: fixed;
+  border-color: #F5DF8A;
+  border-radius: 5px;
 }
 label{
-color: white;
+font-family: megrim;
+}
+p > input:first-child,
+p > label:first-child{
+  margin: 0 0% 0 20%;
+}
+p > input:nth-child(2),
+p > label:nth-child(2){
+  float: right;
+  margin: 0 25% 0% 0;
+}
+label,
+legend{
+  color: #F5DF8A;
+}
+p > textarea:first-child{
+  margin: 0 40% 0% 40%;
 }

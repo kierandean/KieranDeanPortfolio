@@ -60,6 +60,7 @@ body{
   margin: 7% 4% 0% 0%;
   background-color: rgba(25, 29, 34, 0.842);
   box-shadow: 10px 10px 8px #888888;
+  border-radius: 5px;
 }
 #leftsnippet{
   height: 615px;
@@ -71,6 +72,7 @@ body{
   padding-bottom: 3%;
   background: rgba(25, 29, 34, 0.842);
   box-shadow: 10px 10px 8px #888888;
+  border-radius: 5px;
 }
 #leftsnippet p,
 #rightsnippet p,
@@ -136,7 +138,7 @@ button{
   margin-top: 5%;
   width: 100%;
   text-decoration: underline;
-  color: rgb(55, 55, 206);
+  color: lightskyblue;
 }
 
 .modal {
