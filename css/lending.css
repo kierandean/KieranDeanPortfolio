@@ -20,9 +20,7 @@ h1{
   font-size: 3em;
   margin: 0;
   position: absolute;
-  color: #EDEDEF;
-  text-emphasis-color: blue;
-  margin-top: 1vw;
+  margin-top: 20px;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -48,84 +46,17 @@ body{
   background-size: 500px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left;
-  background-color: #EDE4E3;
+  background-position: 5% 90%;
+  background-color: #ECE2E1;
 }
-/*NAV BAR + BACKGROUND*/
-#leftsnippet{
-  width: 20%;
-  height: 595px;
-  float: right;
-  padding-bottom: 1%;
-  margin: 5% 8% 0% 8%;
-  border: 2px solid rgba(25, 29, 34, 0.842);
-  box-shadow: 10px 10px 8px #888888;
-  border-radius: 5px;
-}
-#middle{
-  float: right;
-  width: 15%;
-  margin: 10% 0% 0% 0%;
-  padding-bottom: 3%;
-  background: rgba(25, 29, 34, 0.842);
-  box-shadow: 10px 10px 8px #888888;
-  border-radius: 5px;
-}
-#articlelist li{
-  font-size: 120%;
-  margin-bottom: 5%;
-  font-family: monospace;
-  padding-top: 3%;
-}
-#listcontainer{
-  text-align: center
-}
-article{
-  height: 40%;
-}
-.snipp{
-  font-family: monospace;
-  width: 20vw;
-  font-size: 120%;
-  text-align: center;  
-}
-.pmodal{
-  background-color: inherit;
-}
-img{
-  height: 45%;
-  width: 20vw;
-}
-.snippetimg{
-  max-width: 100%;
-}
+/*^^NAV BAR + BACKGROUND^^*/
 h2{
-  font-family: megrim;
-  font-size: 1.5em;
-  margin: 2% 0 0 0;
-  padding-left: 3%;
-}
-h5{
-  font-family: megrim;
-  font-size: 1.5em;
-  margin: 5% 0% 2.5% 3%;
-}
-h3{
+  font-size: 2em;
   font-family: megrim;
   text-align: center;
-  font-size: 2em;
-  margin: 0;
-  
 }
-
-button{
-  background-color: inherit;
-  font-family: monospace;
-  border: none;
-  cursor: pointer;
-  font-size: 150%;
-  margin-top: 5%;
-  width: 100%;
-  text-decoration: underline;
-  color: blue;
+#content{
+  float: right;
+  margin: 8% 25% 0% 0%;
+  width: 30%;
 }

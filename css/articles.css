@@ -46,7 +46,7 @@ font-size: 1.5vw;
 
 body{
   background-image: url(img/articleback.jpg);
-  background-color: #EDEDEF;
+  background-color: #EBECEE;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -229,14 +229,12 @@ h4{
   cursor: pointer;
 }
 
-
-
 /*media screen*/
 .mp{
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 635px) {
   nav{
     display: none;
   }
