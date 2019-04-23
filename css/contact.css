@@ -1,58 +1,63 @@
 @font-face{
     font-family: megrim;
     src: url(font/megrim.ttf);
-  }
-  #leftnav{
-    float: left;
-  }
-  #rightnav{
-    float: right;
-  }
-  #heading{
-    display: inline-block;
-    width: 18vw;
-  }
-  #navbar{
-    background: white;
-  }
-  nav{
-    width: 40vw;
-  }
-  h1{
-    font-size: 3vw;
-    margin: 0;
-    position: absolute;
-    margin-top: 1vw;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-  }
-  a{
-    font-family: megrim;
-    text-decoration: none;
-    color: black;
-  }
-  #header ul > li:first-child{
-    margin-left: 15%;
-  }
-  #header ul > li:nth-child(2){
-    float: right;
-    margin-right: 18%;
-  }
-  li{
+}
+#leftnav{
+  float: left;
+}
+#rightnav{
+  float: right;
+}
+#heading{
   display: inline-block;
-  font-size: 1.5vw;
-  }
-  body{
-    background-color:rgb(233, 233, 233);
-  }
-  #background{
-    background-color: rgb(110, 107, 112);
-    margin-top: 4.5vh; 
-    height: 92vh;
-    z-index: -1;
-  background-size: 56.57px 56.57px;
-  }
+  width: 18vw;
+}
+#navbar{
+  background: white;
+}
+nav{
+  width: 40vw;
+}
+h1{
+  font-size: 3vw;
+  margin: 0;
+  position: absolute;
+  margin-top: 1vw;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+a{
+  font-family: megrim;
+  text-decoration: none;
+  color: white;
 
-  <form
-  
+}
+#header ul > li:first-child{
+  margin-left: 15%;
+}
+#header ul > li:nth-child(2){
+  float: right;
+  margin-right: 18%;
+}
+li{
+display: inline-block;
+font-size: 1.5vw;
+}
+body{
+  background-image: url(img/contactback.jpg);
+  background-color: #231F20;
+  background-position: 10% 5%;
+  background-repeat: no-repeat;
+}
+
+/* FORM */
+fieldset{
+  width: 30%;
+  top: 30%;
+  left: 50%;
+  position: fixed;
+}
+label{
+color: white;
+}

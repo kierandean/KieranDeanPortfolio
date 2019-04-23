@@ -49,12 +49,6 @@ body{
   position: relative;
   background-size: cover;
 }
-#background{
-  background-image: url(img/lback.png);
-  width: 100%;
-  z-index: 11;
-  background-repeat: no-repeat;
-}
 /*NAV BAR + BACKGROUND*/
 
 img{

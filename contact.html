@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/contact.css">
-    <script src=scripts/contact.js></script>
+    <script src=scripts/m.js></script>
     <title>Kier's bit of internet</title>
 </head>
 <body>
     
 <div id="wrapper">
-
     <div id="header">
         <nav id="leftnav">
             <ul>
@@ -29,12 +28,15 @@
             </ul>
         </nav>
     </div>
-
-    <div id="background">
-            
-
-
-    </div>
-
-
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Get in Touch</legend>
+            <p><label for="forname">Forname</label><label for="surname">Surname</label></p>
+            <p><input type="text" name="name" id="forname" placeholder="Saxon"> <input type="text" id="surname"  name="name" placeholder="Tilbury">  </p>
+            <p><label for="email">Email</label><label for="subject">Subject</label></p>
+            <p><input type="email" id="email" placeholder="Contact@you.com"><input type="text" id="subject" placeholder="What's it about?"></p>
+            <p><input type="email" name="Your Contact Email" placeholder="me@mail.com"> </p>
+            <textarea name="message"></textarea>
+        </fieldset>
+    </form>
 </div>
