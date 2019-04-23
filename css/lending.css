@@ -13,12 +13,15 @@
   width: 18vw;
 }
 nav{
+  color: #EDEDEF;
   width: 40vw;
 }
 h1{
-  font-size: 3vw;
+  font-size: 3em;
   margin: 0;
   position: absolute;
+  color: #EDEDEF;
+  text-emphasis-color: blue;
   margin-top: 1vw;
   left: 50%;
   margin-right: -50%;
@@ -42,30 +45,27 @@ font-size: 1.5vw;
 }
 body{
   background-image: url(img/lback.jpg);
-  background-size: 30%;
+  background-size: 500px;
   background-repeat: no-repeat;
-  background-position: 0% 120%;
-  background-color: #263200;
+  background-attachment: fixed;
+  background-position: left;
+  background-color: #EDE4E3;
 }
 /*NAV BAR + BACKGROUND*/
-#rightsnippet,
 #leftsnippet{
   width: 20%;
   height: 595px;
   float: right;
   padding-bottom: 1%;
-  margin: 5% 4% 0% 0%;
+  margin: 5% 8% 0% 8%;
   border: 2px solid rgba(25, 29, 34, 0.842);
   box-shadow: 10px 10px 8px #888888;
   border-radius: 5px;
 }
-#leftsnippet{
-  height: 620px;
-}
 #middle{
   float: right;
   width: 15%;
-  margin: 10% 4% 0% 0%;
+  margin: 10% 0% 0% 0%;
   padding-bottom: 3%;
   background: rgba(25, 29, 34, 0.842);
   box-shadow: 10px 10px 8px #888888;
@@ -80,11 +80,10 @@ body{
 #listcontainer{
   text-align: center
 }
-
 article{
   height: 40%;
 }
-p{
+.snipp{
   font-family: monospace;
   width: 20vw;
   font-size: 120%;
