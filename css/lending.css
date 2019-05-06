@@ -2,6 +2,7 @@
   font-family: megrim;
   src: url(font/megrim.ttf);
 }
+/*^^NAV BAR + BACKGROUND^^*/
 #leftnav{
   float: left;
 }
@@ -25,7 +26,8 @@ h1{
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
-a{
+nav a,
+h1{
   font-family: megrim;
   text-decoration: none;
   color: black;
@@ -37,7 +39,7 @@ a{
   float: right;
   margin-right: 18%;
 }
-li{
+#header li{
 display: inline-block;
 font-size: 1.5vw;
 }
@@ -49,14 +51,109 @@ body{
   background-position: 5% 90%;
   background-color: #ECE2E1;
 }
-/*^^NAV BAR + BACKGROUND^^*/
+/*Article*/
 h2{
   font-size: 2em;
   font-family: megrim;
   text-align: center;
 }
-#content{
+article{
   float: right;
-  margin: 8% 25% 0% 0%;
+  margin: 8% 15% 0% 0%;
+  width: 40%;
+  border: 2px solid #113CA4;
+  border-radius: 5px;
+  background-color: #ECE2E1;
+}
+article p{
+  color: #03339E;
+  font-size: 1em;
+  font-family: sans-serif;
+  padding: 0% 2% 0% 2%;
+}
+article button{
+width: 100%;
+}
+/*MODAL*/
+p{
+  font-family: 'Trebuchet MS';
+}
+.close,
+.pagenumber{
+  display: inline-block;
+  padding-top: 15px;
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+}
+.pagenumber{
+  float:right;
+  padding-right: 15px;
+
+}
+.close{
+  padding-left: 15px;
+}
+.modal{
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color:black;
+}
+.content {
+  background-color: white;
+  margin: 3% auto; 
+  border: 1px solid #888;
+  width: 750px;
+}
+.modal img{
   width: 30%;
+  display: block;
+  padding-top: 40px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+#titlepage p{
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+#titlepage p:nth-child(3),
+#titlepage p:nth-child(5){
+  margin-bottom: 100px;
+}
+#titlepage p:nth-child(6){
+  margin-bottom: 70px;
+}
+#titlepage p:nth-child(8){
+  margin-bottom: 80px;
+}
+#titlepage p:nth-child(9){
+  padding-bottom: 60px;
+}
+.pagebreak{
+  background-color: black;
+  height: 25px;
+  width: 102%;
+  margin: 50px 0px 0px -1px;
+  border:0;
+}
+.bold{
+  font-weight: bold;
+}
+h3{
+  text-align: center;
+  font-family: 'Trebuchet MS';
+}
+.maintext{
+  padding:0 20px 0 20px;
+}
+
+#ulaims{
+font-size: 1em;
+font-family: trebuchet MS;
+width: 80%;
+margin: auto;
 }

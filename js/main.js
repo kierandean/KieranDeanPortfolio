@@ -15,11 +15,6 @@ window.onclick = function (event) {
   }
 }
 
-function click() {
-
-}
-
 function main() {
-  mmodal.onclick = click();
-  console.log("in main function")
+  alert(popup)
 }
