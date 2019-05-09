@@ -75,8 +75,14 @@ article button{
 width: 100%;
 }
 /*MODAL*/
-p{
-  font-family: 'Trebuchet MS';
+.close{
+  padding-left: 15px;
+  color: grey;
+}
+.close:hover,
+.close:focus{
+  color: black;
+  cursor: pointer;
 }
 .close,
 .pagenumber{
@@ -90,10 +96,7 @@ p{
   padding-right: 15px;
 
 }
-.close{
-  padding-left: 15px;
-}
-.modal{
+#myModal{
   position: fixed;
   left: 0;
   top:0;
@@ -104,7 +107,8 @@ p{
 }
 .content {
   background-color: white;
-  margin: 3% auto; 
+  margin: 1.5% auto;
+  margin-bottom: 80px; 
   border: 1px solid #888;
   width: 750px;
 }
@@ -116,22 +120,23 @@ p{
   margin-bottom: 70px;
 }
 #titlepage p{
+  font-family: 'Trebuchet MS';
   margin: 0;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
-#titlepage p:nth-child(3),
-#titlepage p:nth-child(5){
-  margin-bottom: 100px;
-}
+#titlepage p:nth-child(5),
 #titlepage p:nth-child(6){
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 #titlepage p:nth-child(8){
-  margin-bottom: 80px;
+  margin-bottom: 95px;
 }
 #titlepage p:nth-child(9){
-  padding-bottom: 60px;
+  padding-bottom: 95px;
+}
+#titlepage p:nth-child(11){
+  padding-bottom: 30px;
 }
 .pagebreak{
   background-color: black;
@@ -143,17 +148,62 @@ p{
 .bold{
   font-weight: bold;
 }
+#contents{
+  height:300px;
+}
+#contents ul{
+  float: left;
+  margin: 0 5px;
+  list-style-type: none;
+}
+#contents ul li{
+  padding-bottom: 10px;
+}
+#con{
+  padding-left: 240px;
+}
 h3{
   text-align: center;
   font-family: 'Trebuchet MS';
 }
 .maintext{
-  padding:0 20px 0 20px;
+  padding:0 60px 0 60px;
+  font-family: 'Trebuchet MS';
 }
-
 #ulaims{
 font-size: 1em;
 font-family: trebuchet MS;
 width: 80%;
 margin: auto;
+}
+table{
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+th{
+  padding: 10px;
+  font-size: 1.2em;
+}
+td{
+  padding: 10px;
+  text-align: center;
+}
+th,
+td{
+  font-family: 'Trebuchet MS';
+}
+table,
+th,
+td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#pg6{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+#pg6 ul li{
+  list-style-type: none;
+  padding: 5px;
 }

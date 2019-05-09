@@ -185,7 +185,7 @@
     </div>
     <div id="prisonmodal" class="modal">
             <div class="prison-content">
-                <span class="pclose">X</span>
+                <span id="pclose">X</span>
                 <article class="modalarticle">
                     <h4>The truth behind prison labour</h4>
                     <div class="lcolumn">
@@ -240,6 +240,22 @@
         window.onclick = function (event) {
             if (event.target == mmodal) {
             mmodal.style.display = "none";
+            }
+        }
+        var pmodal = document.getElementById('prisonmodal');
+        var pbtn = document.getElementById('prisonBtn');
+        var pspan = document.getElementsById("pclose")[0];
+        
+        pbtn.onclick = function () {
+            pmodal.style.display = "block";
+            pbtn.style.color = "rgb(128, 0, 128)"
+        }
+        pspan.onclick = function () {
+            pmodal.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == pmodal) {
+            pmodal.style.display = "none";
             }
         }
     </script>
