@@ -51,40 +51,42 @@ body{
   background-repeat: no-repeat;
 }
 /*NAV BAR + BACKGROUND*/
- 
-#rightsnippet,
-#leftsnippet{
-  width: 20%;
+#content{
+  margin: 8% 15% 0 0;
+  width: 45%;
   float: right;
-  padding-bottom: 1%;
-  margin: 5% 4% 0% 0%;
+}
+#rightsnippet{
+  padding-bottom: 3%;
   border: 2px solid rgba(25, 29, 34, 0.842);
   box-shadow: 10px 10px 8px #888888;
   border-radius: 5px;
 }
 #middle{
-  float: right;
-  width: 15%;
-  margin: 10% 4% 0% 0%;
+  width: 90%;
+  margin-left: 5%; 
   padding-bottom: 3%;
-  background: rgba(25, 29, 34, 0.842);
+  background: rgba(140, 141, 141, 0.801);
   box-shadow: 10px 10px 8px #888888;
+  border: 2px solid rgba(112, 112, 112, 0.801);
   border-radius: 5px;
 }
 #middle h2,
 #middle h3{
-  color: whitesmoke;
+  color: #4D555B;
 }
 #middle p{
+  margin: 1%;
   color: whitesmoke;
-  width: 90%;
-  margin-left: 3%;
 }
-#leftsnippet p,
 #rightsnippet p{
   color: rgba(25, 29, 34, 0.842);
+}
+#middle p,
+#rightsnippet p{
+  text-align: justify;
+  font-family: 'Trebuchet MS';
   width: 90%;
-  text-align: left;
   margin-left: 3%;
 }
 #articlelist li{
@@ -99,7 +101,8 @@ body{
 article{
   height: 40%;
 }
-p{
+.lcolumn p,
+.mcolumn p{
   font-family: monospace;
   width: 20vw;
   font-size: 120%;
@@ -137,14 +140,14 @@ h3{
 }
 button{
   background-color: inherit;
-  font-family: monospace;
+  font-family: 'Trebuchet MS';
+  margin-top: 10px;
   border: none;
   cursor: pointer;
-  font-size: 150%;
-  margin-top: 5%;
+  font-size: 1.2em;
   width: 100%;
   text-decoration: underline;
-  color: lightskyblue;
+  color: #232429;
 }
 
 .modal {
@@ -236,7 +239,6 @@ h4{
     font-size: 1.5em;
   }
   #middle,
-  #leftsnippet,
   #rightsnippet{
     display: none;
   }
@@ -286,10 +288,5 @@ h4{
     margin: 0 0 4% 0;
     background-color: transparent;
   }
-  #background{
-  background-color: rgba(255, 255, 255, 0.15);
-  background-image: none;
-  margin-top: 20px;
-  height: 240%;
-  }
+  
 }
